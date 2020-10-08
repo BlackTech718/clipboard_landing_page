@@ -6,21 +6,390 @@
   font-family: 'Bai Jamjuree',sans-serif;
 }
 
+body {
+  background-image: url(/clipboard-landing-page-master/images/bg-header-mobile.png);
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
 .container {
-  width: 80%;
+  width: 82%;
   margin: 100px auto 0 auto;
 }
 
-.container .top h2 {
+.container .top {
+  text-align: center;
+}
+
+.container .top img {
+  padding-bottom: 80px;
+}
+
+.container .top h1 {
   color: #4c545d;
   text-align: center;
   font-size: 30px;
   padding-bottom: 2rem;
+  font-weight: 800;
 }
 
 .container .top p {
   color: #9fabb2;
   text-align: center;
-  font-size: 18px;
+  font-size: 16px;
+  padding-bottom: 2rem;
+}
+
+.container .buttons {
+  text-align: center;
+  max-width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .buttons .btn {
+  text-decoration: none;
+  color: #fff;
+  padding: 15px 40px;
+  border-radius: 100px 100px 100px 100px;
+}
+
+.container .buttons .btn1 {
+  background-color: #26baa4;
+  margin-bottom: 1rem;
+}
+
+.container .buttons .btn2 {
+  background-color: #6173ff;
+  margin-bottom: 7rem;
+}
+
+.container .third {
+  text-align: center;
+}
+
+.container .third h2 {
+  color: #4c545d;
+  padding-bottom: 1rem;
+}
+
+.container .third p {
+  color: #9fabb2;
+  font-size: 16px;
+  padding-bottom: 2rem;
+}
+
+.container .four {
+  text-align: center;
+}
+
+.container .four img {
+  max-width: 100%;
+  padding-bottom: 2rem;
+}
+
+.container .four .cards h4 {
+  color: #4c545d;
+}
+
+.container .four .cards p {
+  color: #9fabb2;
+}
+
+.container .four .cards .card1, .container .four .cards .card2 {
+  padding-bottom: 2.5rem;
+}
+
+.container .four .cards .card3 {
+  padding-bottom: 10rem;
+}
+
+.container .five {
+  text-align: center;
+}
+
+.container .five .content h2 {
+  color: #4c545d;
+  padding-bottom: 2rem;
+}
+
+.container .five .content p {
+  color: #9fabb2;
+}
+
+.container .five .five_pic img {
+  max-width: 100%;
+  padding-bottom: 5rem;
+}
+
+.container .five .five_foot {
+  text-align: center;
+}
+
+.container .five .five_foot h3 {
+  padding-bottom: 1rem;
+}
+
+.container .five .five_foot p {
+  color: #9fabb2;
+  padding-bottom: 4rem;
+}
+
+.container .six {
+  text-align: center;
+}
+
+.container .six .feat1 img {
+  max-width: 100%;
+  padding-bottom: 2rem;
+}
+
+.container .six .feat1 h4 {
+  font-size: 20px;
+  color: #4c545d;
+}
+
+.container .six .feat1 p {
+  font-size: 16px;
+  padding-bottom: 4rem;
+  color: #9fabb2;
+}
+
+.container .six .feat2 img {
+  max-width: 100%;
+  padding-bottom: 2rem;
+}
+
+.container .six .feat2 h4 {
+  font-size: 20px;
+  color: #4c545d;
+}
+
+.container .six .feat2 p {
+  font-size: 16px;
+  padding-bottom: 4rem;
+  color: #9fabb2;
+}
+
+.container .six .feat3 img {
+  max-width: 100%;
+  padding-bottom: 2rem;
+}
+
+.container .six .feat3 h4 {
+  font-size: 20px;
+  color: #4c545d;
+}
+
+.container .six .feat3 p {
+  font-size: 16px;
+  color: #9fabb2;
+  padding-bottom: 7rem;
+}
+
+.container .sponsor {
+  text-align: center;
+}
+
+.container .sponsor img {
+  max-width: 100%;
+  padding-bottom: 3rem;
+}
+
+.container .ender {
+  text-align: center;
+}
+
+.container .ender h2 {
+  color: #4c545d;
+  padding-bottom: 1rem;
+}
+
+.container .ender p {
+  color: #9fabb2;
+  padding-bottom: 3rem;
+}
+
+.container .ender .ender_buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-decoration: none;
+}
+
+.container .ender .ender_buttons .btn1 {
+  background-color: #26baa4;
+  margin-bottom: 1rem;
+  padding: 15px 40px;
+  border-radius: 100px 100px 100px 100px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.container .ender .ender_buttons .btn2 {
+  background-color: #6173ff;
+  margin-bottom: 1rem;
+  padding: 15px 40px;
+  border-radius: 100px 100px 100px 100px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.foot {
+  background-color: #e8e8e8;
+  text-align: center;
+}
+
+.foot .container {
+  padding-top: 2rem;
+}
+
+.foot .container img {
+  max-width: 18%;
+  padding-bottom: 1.5rem;
+}
+
+.foot .container .link1 ul, .foot .container .link2 ul, .foot .container .link3 ul {
+  list-style: none;
+}
+
+.foot .container .link1 li, .foot .container .link2 li, .foot .container .link3 li {
+  padding-bottom: 1rem;
+}
+
+.foot .container .social .img1, .foot .container .social .img2, .foot .container .social .img3 {
+  padding-left: 1rem;
+}
+
+.attribution {
+  font-size: 14px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+@media (min-width: 500px) and (max-width: 2000px) {
+  body {
+    background-image: url(/clipboard-landing-page-master/images/bg-header-desktop.png);
+  }
+  .container .buttons {
+    max-width: 100%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .container .btn1 {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    -webkit-box-shadow: #4c545d 1px 1px;
+            box-shadow: #4c545d 1px 1px;
+  }
+  .container .third {
+    margin: 0 auto 0 auto;
+    max-width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .container .four {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .container .four img {
+    position: relative;
+    right: 15rem;
+  }
+  .container .four .cards {
+    position: relative;
+    text-align: left;
+    top: 4rem;
+    right: 6rem;
+  }
+  .container .five .content {
+    max-width: 100%;
+  }
+  .container .five .content p {
+    margin: 0 auto 0 auto;
+    max-width: 60%;
+    padding-bottom: 3rem;
+  }
+  .container .six {
+    max-width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .container .six .feat1, .container .six .feat2, .container .six .feat3 {
+    margin: 0 auto 0 auto;
+    max-width: 30.3%;
+  }
+  .container .sponsor {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-bottom: 4rem;
+  }
+  .container .ender {
+    max-width: 50%;
+    margin: 0 auto 0 auto;
+  }
+  .container .ender .ender_buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .foot .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .foot .container .small_foot {
+    max-width: 5%;
+  }
+  .foot .container .social .img1, .foot .container .social .img2, .foot .container .social .img3 {
+    max-width: 100%;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

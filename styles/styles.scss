@@ -9,31 +9,324 @@
     $bluegrey:hsl(210,10%,33%);
     $greyblue:hsl(201, 11%, 66%);
 
+body{
+    background-image: url(/clipboard-landing-page-master/images/bg-header-mobile.png);
+    background-repeat: no-repeat;
+    background-position: top;
+}
 .container{
-    width:80%;
+    width:82%;
     margin: 100px auto 0 auto;
     // top section styling
     .top{
-        h2{
+        text-align: center;
+        img{
+            padding-bottom: 80px;
+        }
+        h1{
 
             color:$bluegrey;
             text-align: center;
             font-size: 30px;
             padding-bottom: 2rem;
+            font-weight: 800;
         }
         p{
             color:$greyblue;
             text-align: center;
-            font-size: 18px;
+            font-size: 16px;
+            padding-bottom: 2rem;
         }
         
+    }
+    //  Buttons section styling
+    .buttons{
+        text-align: center;
+        max-width: 100%;
+        display:flex;
+        flex-direction: column;
+        .btn{
+            text-decoration: none;
+            color:#fff;
+            padding: 15px 40px;
+            border-radius:100px 100px 100px 100px;
+        }
+        .btn1{
+            background-color: $cyan;
+            margin-bottom: 1rem;
+        }
+        .btn2{
+            background-color: $lightblue;
+            margin-bottom: 7rem;
+        }
+    }
+    .third{
+        text-align: center;
+        h2{
+            color:$bluegrey;
+            padding-bottom: 1rem;
+        }
+        p{
+            color:$greyblue;
+            font-size: 16px;
+            padding-bottom: 2rem;
+        }
+    }
+    .four{
+        text-align: center;
+        img{
+            max-width: 100%;
+            padding-bottom: 2rem;
+        }
+        .cards{
+            h4{
+                color:$bluegrey;
+            }
+            p{
+                color:$greyblue;
+            }
+            .card1, .card2{
+                padding-bottom: 2.5rem;
+            }
+            .card3{
+                padding-bottom: 10rem;
+            }
+        }
+    }
+    .five{
+        text-align: center;
+        .content{
+            h2{
+                color:$bluegrey;
+                padding-bottom: 2rem;
+            }
+            p{
+                color:$greyblue;
+            }
+        }
+        .five_pic{
+            img{
+                max-width: 100%;
+                padding-bottom: 5rem;
+            }
+        }
+        .five_foot{
+            text-align: center;
+            h3{
+                padding-bottom: 1rem;
+                
+            }
+            p{
+                color:$greyblue;
+                padding-bottom: 4rem;
+            }
+        }
+        
+    }
+    .six{
+        text-align: center;
+        .feat1{
+            img{
+                max-width: 100%;
+                padding-bottom: 2rem;
+            }
+            h4{
+                font-size: 20px;
+                color:$bluegrey;
+            }
+            p{
+                font-size: 16px;
+                padding-bottom: 4rem;
+                color:$greyblue;
+            }
+        }
+        .feat2{
+            img{
+                max-width: 100%;
+                padding-bottom: 2rem;
+            }
+            h4{
+                font-size: 20px;
+                color:$bluegrey;
+            }
+            p{
+                font-size: 16px;
+                padding-bottom: 4rem;
+                color:$greyblue;
+            }
+        }
+        .feat3{
+            img{
+                max-width: 100%;
+                padding-bottom: 2rem;
+            }
+            h4{
+                font-size: 20px;
+                color:$bluegrey;
+            }
+            p{
+                font-size: 16px;
+                color:$greyblue;
+                padding-bottom: 7rem;
+            }
+        }
+    }
+    .sponsor{
+        text-align: center;
+        img{max-width: 100%; padding-bottom: 3rem;}
+    }
+    .ender{
+        text-align: center;
+        h2{
+            color:$bluegrey;
+            padding-bottom: 1rem;
+        }
+        p{
+            color:$greyblue;
+            padding-bottom: 3rem;
+        }
+        .ender_buttons{
+            display:flex;
+            flex-direction: column;
+            text-decoration: none;
+            .btn1{
+                background-color: $cyan;
+                margin-bottom: 1rem;
+                padding: 15px 40px;
+                border-radius:100px 100px 100px 100px;
+                color:#fff;
+                text-decoration: none;
+            }
+            .btn2{
+                background-color: $lightblue;
+                margin-bottom: 1rem;
+                padding: 15px 40px;
+                border-radius:100px 100px 100px 100px;
+                color:#fff;
+                text-decoration: none;
+            }
+        }
     }
 
 }
 
+// Footer With inner container for background color
+.foot{
+    background-color: #e8e8e8;
+    text-align: center;
+    .container{
+        padding-top:2rem;
+        img{
+            max-width: 18%;
+            padding-bottom: 1.5rem;
+        }
+        .link1, .link2, .link3{
+            ul{list-style: none;}
+            li{padding-bottom: 1rem;}
+        }
+        .social{
+            .img1, .img2, .img3{
+                padding-left: 1rem;
+            }
+            
+        }
+    }
+}
+
+// Seperate Section
+.attribution { font-size: 14px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
 
 
+// Media Query for monitors over 500px;
 
 
-// - Dark Grayish Blue: hsl(210, 10%, 33%)
-// - Grayish Blue: hsl(201, 11%, 66%)
+@media(min-width:500px) and (max-width:2000px){
+    body{
+        background-image: url(/clipboard-landing-page-master/images/bg-header-desktop.png);
+    }
+    .container{
+        .buttons{
+            // flex-direction: row;
+            max-width: 100%;
+            flex-direction: row;
+            justify-content: center;
+        }
+        .btn1{
+            height:100%;
+            margin:0px;
+            padding:0px;
+            box-shadow: $bluegrey 1px 1px;
+        
+        }
+        .third{
+            margin: 0 auto 0 auto;
+            max-width: 50%;
+            display:flex;
+            flex-direction:column;
+        }
+        .four{
+            display:flex;
+            img{
+                position: relative;
+                right:15rem;
+            }
+            .cards{
+                position: relative;
+                text-align: left;
+                top:4rem;
+                right: 6rem;
+            }
+        }
+        .five{
+            .content{
+                max-width: 100%;
+                p{
+                    margin: 0 auto 0 auto;
+                    max-width: 60%;
+                    padding-bottom: 3rem;
+                }
+            }
+        }
+        .six{
+            max-width: 100%;
+            display:flex;
+            flex-direction: row;
+            .feat1,.feat2,.feat3{
+                margin: 0 auto 0 auto;
+                max-width: 30.3%;
+            }
+        }
+        .sponsor{
+            display:flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-bottom: 4rem;
+        }
+        .ender{
+            max-width: 50%;
+            margin: 0 auto 0 auto;
+            .ender_buttons{
+                display:flex;
+                flex-direction: row;
+                justify-content: center;
+            }
+        }
+    }
+    .foot{
+        .container{
+            display:flex;
+            justify-content: space-between;
+            .small_foot{
+                max-width: 5%;
+                
+            }
+            .social{
+                .img1, .img2, .img3{
+                    max-width: 100%;
+                }
+            }
+        }
+    }
+
+}
