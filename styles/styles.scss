@@ -3,4 +3,37 @@
     padding:0px;
     margin:0px;
     font-family:'Bai Jamjuree',sans-serif;
+}   
+    $lightblue:hsl(233, 100%, 69%);
+    $cyan:hsl(171, 66%, 44%);
+    $bluegrey:hsl(210,10%,33%);
+    $greyblue:hsl(201, 11%, 66%);
+
+.container{
+    width:80%;
+    margin: 100px auto 0 auto;
+    // top section styling
+    .top{
+        h2{
+
+            color:$bluegrey;
+            text-align: center;
+            font-size: 30px;
+            padding-bottom: 2rem;
+        }
+        p{
+            color:$greyblue;
+            text-align: center;
+            font-size: 18px;
+        }
+        
+    }
+
 }
+
+
+
+
+
+// - Dark Grayish Blue: hsl(210, 10%, 33%)
+// - Grayish Blue: hsl(201, 11%, 66%)
