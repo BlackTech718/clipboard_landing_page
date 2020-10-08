@@ -9,22 +9,33 @@
     $bluegrey:hsl(210,10%,33%);
     $greyblue:hsl(201, 11%, 66%);
 
+body{
+    background-image: url(/clipboard-landing-page-master/images/bg-header-mobile.png);
+    background-repeat: no-repeat;
+    background-position: top;
+}
 .container{
-    width:80%;
+    width:82%;
     margin: 100px auto 0 auto;
     // top section styling
     .top{
-        h2{
+        text-align: center;
+        img{
+            padding-bottom: 80px;
+        }
+        h1{
 
             color:$bluegrey;
             text-align: center;
             font-size: 30px;
             padding-bottom: 2rem;
+            font-weight: 800;
         }
         p{
             color:$greyblue;
             text-align: center;
-            font-size: 18px;
+            font-size: 16px;
+            padding-bottom: 2rem;
         }
         
     }

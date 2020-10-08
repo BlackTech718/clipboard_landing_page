@@ -6,21 +6,37 @@
   font-family: 'Bai Jamjuree',sans-serif;
 }
 
+body {
+  background-image: url(/clipboard-landing-page-master/images/bg-header-mobile.png);
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
 .container {
-  width: 80%;
+  width: 82%;
   margin: 100px auto 0 auto;
 }
 
-.container .top h2 {
+.container .top {
+  text-align: center;
+}
+
+.container .top img {
+  padding-bottom: 80px;
+}
+
+.container .top h1 {
   color: #4c545d;
   text-align: center;
   font-size: 30px;
   padding-bottom: 2rem;
+  font-weight: 800;
 }
 
 .container .top p {
   color: #9fabb2;
   text-align: center;
-  font-size: 18px;
+  font-size: 16px;
+  padding-bottom: 2rem;
 }
 /*# sourceMappingURL=styles.css.map */
