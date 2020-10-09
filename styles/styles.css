@@ -283,6 +283,13 @@ body {
   body {
     background-image: url(/clipboard-landing-page-master/images/bg-header-desktop.png);
   }
+  body p {
+    line-height: 1.5rem;
+  }
+  .container .top p {
+    max-width: 50%;
+    margin: 0 auto 0 auto;
+  }
   .container .buttons {
     max-width: 100%;
     -webkit-box-orient: horizontal;
@@ -331,8 +338,11 @@ body {
   }
   .container .five .content p {
     margin: 0 auto 0 auto;
-    max-width: 60%;
+    max-width: 55%;
     padding-bottom: 3rem;
+  }
+  .container .five .five_foot .hide {
+    display: none;
   }
   .container .six {
     max-width: 100%;

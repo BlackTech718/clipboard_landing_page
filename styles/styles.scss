@@ -244,8 +244,17 @@ body{
 @media(min-width:500px) and (max-width:2000px){
     body{
         background-image: url(/clipboard-landing-page-master/images/bg-header-desktop.png);
+        p{
+            line-height: 1.5rem;
+        }
     }
     .container{
+        .top{
+            p{
+                max-width: 50%;
+                margin: 0 auto 0 auto;
+            }
+        }
         .buttons{
             // flex-direction: row;
             max-width: 100%;
@@ -283,9 +292,12 @@ body{
                 max-width: 100%;
                 p{
                     margin: 0 auto 0 auto;
-                    max-width: 60%;
+                    max-width: 55%;
                     padding-bottom: 3rem;
                 }
+            }
+            .five_foot{
+                .hide{display:none;}
             }
         }
         .six{
