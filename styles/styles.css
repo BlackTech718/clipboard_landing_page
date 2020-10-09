@@ -281,7 +281,7 @@ body {
 
 @media (min-width: 500px) and (max-width: 2000px) {
   body {
-    background-image: url(/clipboard-landing-page-master/images/bg-header-desktop.png);
+    background-image: url(images/bg-header-desktop.png);
   }
   body p {
     line-height: 1.5rem;
